@@ -29,5 +29,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.characters {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    margin: 3rem 0;
+}
 </style>
